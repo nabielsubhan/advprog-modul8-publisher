@@ -7,3 +7,8 @@ Dari kode program yang ada, publisher akan mengirimkan 5 data ke message broker 
 
 ### The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean? 
 Publisher dan Subscriber menggunakan URL yang sama menandakan bahwa keduanya memiliki koneksi ke AMQP broker yang sama. Perbedaannya adalah Publisher akan mem-*publish* data ke AMQP broker, sedangkan Subscriber akan me-*listen* data dari AMQP broker.
+
+### Running RabbitMQ as message broker
+<p align="center">
+  <img src="images\rabbitmq-running.png" />
+</p>
