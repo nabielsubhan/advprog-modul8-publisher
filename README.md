@@ -12,3 +12,9 @@ Publisher dan Subscriber menggunakan URL yang sama menandakan bahwa keduanya mem
 <p align="center">
   <img src="images\rabbitmq-running.png" />
 </p>
+
+### Sending and processing event
+<p align="center">
+  <img src="images\sending-processing-event.png" />
+</p>
+Setelah melakukan `cargo run` di Publisher, maka Publisher akan mengirim 5 data ke message queue. Setelah itu, Subscriber akan menerima 5 data tersebut dari message queue dan menampilkannya di console seperti pada gambar di atas.
