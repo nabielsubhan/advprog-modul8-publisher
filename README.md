@@ -18,3 +18,9 @@ Publisher dan Subscriber menggunakan URL yang sama menandakan bahwa keduanya mem
   <img src="images\sending-processing-event.png" />
 </p>
 Setelah melakukan `cargo run` di Publisher, maka Publisher akan mengirim 5 data ke message queue. Setelah itu, Subscriber akan menerima 5 data tersebut dari message queue dan menampilkannya di console seperti pada gambar di atas.
+
+### Monitoring chart based on publisher
+<p align="center">
+  <img src="images\monitoring-chart-publisher.png" />
+</p>
+Berdasarkan gambar di atas, dapat disimpulkan bahwa setiap kali kita melakukan `cargo run` pada Publisher, akan mengakibatkan Publisher mengirimkan event baru ke message queue yang berakibat pada naiknya message rate.
